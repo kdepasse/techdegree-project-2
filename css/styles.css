@@ -1,0 +1,265 @@
+* {
+  box-sizing: border-box;
+}
+
+/****MAIN****/
+
+body {
+  width: 100%;
+  margin: 5% auto;
+  padding: 0;
+  text-align: center;
+  color: #505050;
+  background-color: #fafbfd;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  width: 95%;
+  margin: 10px auto;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: 800;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+ul {
+  list-style: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0;
+}
+
+li {
+  padding: 12px;
+  margin: 5px;
+  background-color: #ffffff;
+}
+
+a {
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 1em;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+/****SECTIONS****/
+
+.name {
+  padding-bottom: 10px;
+  font-size: 1.75em;
+}
+
+.intro {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+p {
+  width: 95%;
+  margin: 0 auto;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+.intro img {
+  display: block;
+  width: 70%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px;
+  padding-bottom: 25px;
+}
+
+main {
+  clear: both;
+}
+
+.portfolio {
+  padding-top: 25px;
+  background-color: #ffffff;
+  width: 100%;
+}
+
+.portfolio h3 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.portfolio p {
+  padding-bottom: 25px;
+}
+
+.portfolio img {
+  display: block;
+  width: 100%;
+}
+
+.skills {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #ffffff;
+}
+
+.skills h3 {
+  text-transform: uppercase;
+}
+
+footer {
+  width: 100%;
+  padding-top: 25px;
+}
+
+.footerText {
+  padding-bottom: 25px;
+  padding-top: 15px;
+}
+
+footer p {
+  padding-bottom: 15px;
+}
+
+footer h4 {
+  margin: 0;
+  font-size: 1.25em;
+  float: left;
+}
+
+.backToTop {
+  float: right;
+  margin: 0;
+  padding: 0;
+  border: hidden;
+}
+
+footer nav {
+  visibility: hidden;
+}
+
+.bottomInfo {
+  border-top: 2px solid #dddddd;
+  padding: 15px;
+  font-size: .85em;
+}
+
+
+/********MEDIA QUERIES********/
+
+/***Tablet***/
+@media (min-width: 768px){
+
+  li {
+   display: inline-block;
+   padding-left: 10px;
+   padding-right: 10px;
+   background-color: #fafbfd;
+ }
+
+ .intro {
+   margin-top: 15px;
+   margin-bottom: 10px;
+ }
+
+ .intro p {
+   float: left;
+   width: 45%;
+   text-align: left;
+   font-size: 1.2em;
+ }
+
+ .intro img {
+   width: auto;
+   height: auto;
+   float: right;
+ }
+
+ .portfolioItem {
+   width: 48%;
+   display: inline-block;
+   padding: 5px;
+ }
+
+ .skillsItem {
+   width: 30%;
+   display: inline-block;
+   padding: 5px;
+ }
+
+ .bottomNav {
+   visibility: visible;
+   float: right;
+ }
+
+ .backToTop {
+   visibility: hidden;
+ }
+
+}
+
+/***Deskopt***/
+@media (min-width: 1024px){
+
+  .name {
+    float: left;
+    font-size: 1.5em;
+    padding-left: 10px;
+  }
+
+  li {
+   float: right;
+   padding-left: 10px;
+   padding-right: 10px;
+   background-color: #fafbfd;
+ }
+
+ .intro {
+   margin-top: 15px;
+   margin-bottom: 10px;
+ }
+
+ .intro p {
+   float: left;
+   width: 45%;
+   text-align: left;
+   font-size: 1.2em;
+ }
+
+ .intro img {
+   width: auto;
+   height: auto;
+   float: right;
+ }
+
+ .portfolioItem {
+   max-width: 33%;
+   display: inline-block;
+   padding: 5px;
+ }
+
+ .skillsItem {
+   width: 30%;
+   display: inline-block;
+   padding: 5px;
+ }
+
+.bottomNav {
+  visibility: visible;
+  float: right;
+}
+
+.backToTop {
+  visibility: hidden;
+}
+
+}
