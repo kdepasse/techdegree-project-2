@@ -143,8 +143,8 @@ footer h4 {
   border: hidden;
 }
 
-bottomNav {
-  visibility: hidden;
+.bottomNav {
+  display: none;
 }
 
 .bottomInfo {
