@@ -197,12 +197,12 @@ footer nav {
  }
 
  .bottomNav {
-   visibility: visible;
+   display: inline-block;
    float: right;
  }
 
  .backToTop {
-   visibility: hidden;
+   display: none;
  }
 
 }
@@ -254,12 +254,12 @@ footer nav {
  }
 
 .bottomNav {
-  visibility: visible;
+  display: inline-block;
   float: right;
 }
 
 .backToTop {
-  visibility: hidden;
+  display: none;
 }
 
 }
