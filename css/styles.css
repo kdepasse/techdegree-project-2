@@ -187,6 +187,7 @@ footer h4 {
  .portfolioItem {
    width: 48%;
    display: inline-block;
+   vertical-align: baseline;
    padding: 5px;
  }
 
@@ -244,6 +245,7 @@ footer h4 {
  .portfolioItem {
    max-width: 33%;
    display: inline-block;
+   vertical-align: baseline;
    padding: 5px;
  }
 
